@@ -1,0 +1,61 @@
+Loading data …
+  features shape : (4328, 15)
+  date range     : 2004-04-30 → 2024-05-31
+
+=== Training Phase 1 ===
+  Pre-computing oracle tables for Phase 1 (1205 rows)…
+Phase 1 val: {'label': '', 'annual_return': 0.019924856577825834, 'max_drawdown': -0.1016963504917992, 'sharpe': 0.2947294834040026, 'calmar': 0.1959249912260379, 'omega': 1.0506614940758292, 'sortino': 0.4042224576419023}
+Phase 1 test: {'label': '', 'annual_return': 0.0005453278467209, 'max_drawdown': -0.17869955759125541, 'sharpe': 0.045994889325919316, 'calmar': 0.003051646316709098, 'omega': 1.0076778979916357, 'sortino': 0.06230047069864545}
+
+=== Training Phase 2 ===
+  Pre-computing oracle tables for Phase 2 (2211 rows)…
+Phase 2 val: {'label': '', 'annual_return': -0.020303721620698045, 'max_drawdown': -0.19696467057265127, 'sharpe': -0.23519435997760707, 'calmar': -0.1030830633822167, 'omega': 0.9611496562053923, 'sortino': -0.31047443673794517}
+Phase 2 test: {'label': '', 'annual_return': -0.0215054499775309, 'max_drawdown': -0.21154987369024075, 'sharpe': -0.09908240493232356, 'calmar': -0.10165664295796265, 'omega': 0.9798729100252871, 'sortino': -0.12633515316983418}
+
+=== Training Phase 3 ===
+  Pre-computing oracle tables for Phase 3 (2265 rows)…
+Phase 3 val: {'label': '', 'annual_return': -0.06532743778403916, 'max_drawdown': -0.3357436037236851, 'sharpe': -0.5434392673613303, 'calmar': -0.19457537555295687, 'omega': 0.8979517225924714, 'sortino': -0.6849158779779109}
+Phase 3 test: {'label': '', 'annual_return': -0.16206909356430732, 'max_drawdown': -0.3829788140478864, 'sharpe': -1.1699766570366437, 'calmar': -0.4231803108149025, 'omega': 0.8267153954546691, 'sortino': -1.6030267044139028}
+
+=== Phase 1 test (2015-01-01 → 2020-01-01) ===
+Metric                   PPO-Regret    Benchmark    Paper PPO     Paper BM
+------------------------------------------------------------------------
+annual_return                0.0005       0.0266       0.0640       0.0560
+max_drawdown                -0.1787      -0.1680          nan          nan
+sharpe                       0.0460       0.3515          nan          nan
+calmar                       0.0031       0.1586          nan          nan
+omega                        1.0077       1.0613          nan          nan
+
+=== Phase 2 test (2020-01-01 → 2022-01-01) ===
+Metric                   PPO-Regret    Benchmark    Paper PPO     Paper BM
+------------------------------------------------------------------------
+annual_return               -0.0215       0.0625       0.1280       0.1050
+max_drawdown                -0.2115      -0.2295          nan          nan
+sharpe                      -0.0991       0.4870          nan          nan
+calmar                      -0.1017       0.2725          nan          nan
+omega                        0.9799       1.1065          nan          nan
+
+=== Phase 3 test (2022-01-01 → 2024-01-01) ===
+Metric                   PPO-Regret    Benchmark    Paper PPO     Paper BM
+------------------------------------------------------------------------
+annual_return               -0.1621      -0.0672      -0.0070      -0.0260
+max_drawdown                -0.3830      -0.2839          nan          nan
+sharpe                      -1.1700      -0.4329          nan          nan
+calmar                      -0.4232      -0.2366          nan          nan
+omega                        0.8267       0.9317          nan          nan
+Saved /workspace/project/results/exp1_metrics.json
+Saved /workspace/project/results/exp1_phase1_nav.png
+Saved /workspace/project/results/exp1_phase1_weights.png
+Saved /workspace/project/results/exp1_phase2_nav.png
+Saved /workspace/project/results/exp1_phase2_weights.png
+Saved /workspace/project/results/exp1_phase3_nav.png
+Saved /workspace/project/results/exp1_phase3_weights.png
+
+=== Summary: Annual Return vs Paper Targets ===
+Phase      PPO Annual Ret    BM Annual Ret    Paper PPO     Paper BM
+--------------------------------------------------------------------
+1                  0.0005           0.0266       0.0640       0.0560
+2                 -0.0215           0.0625       0.1280       0.1050
+3                 -0.1621          -0.0672      -0.0070      -0.0260
+
+Experiment 1 complete.

@@ -1,0 +1,69 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Type checking / linting ───────────────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Secrets & environment ─────────────────────────────────────────────────────
+.env
+*.env
+*.key
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Raw market data (API responses / exploratory dumps) ──────────────────────
+# Downloaded price CSV is a deliverable → committed only if explicitly requested
+# Anything in /tmp is never committed
+/tmp/
+
+# ── Model checkpoints (large binary artefacts) ───────────────────────────────
+results/checkpoints/
+*.zip
+
+# ── MLflow / experiment tracking artefacts ───────────────────────────────────
+mlruns/
+mlartifacts/
+
+# ── Optuna study databases ────────────────────────────────────────────────────
+*.db
+
+# ── Raw fetched market data (never commit) ────────────────────────────────────
+data/raw_prices.csv
+data/*.parquet
+
+# ── All SB3 checkpoint zips under results/ ────────────────────────────────────
+results/checkpoints*/

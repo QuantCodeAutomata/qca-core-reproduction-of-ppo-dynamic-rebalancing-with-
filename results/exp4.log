@@ -1,0 +1,259 @@
+Loading data …
+  features shape : (4328, 15)
+
+=== Sensitivity axis: bootstrap_schedule ===
+  bootstrap_schedule = algorithm1
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  bootstrap_schedule = alternation
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+
+=== Sensitivity axis: block_frac ===
+  block_frac = 0.7
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  block_frac = 0.8
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  block_frac = 0.9
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+
+=== Sensitivity axis: gae_lambda ===
+  gae_lambda = 0.95
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.019924856577825834, 'max_drawdown': -0.1016963504917992, 'sharpe': 0.2947294834040026, 'calmar': 0.1959249912260379, 'omega': 1.0506614940758292, 'sortino': 0.4042224576419023}
+Phase 1 test: {'label': '', 'annual_return': 0.0005453278467209, 'max_drawdown': -0.17869955759125541, 'sharpe': 0.045994889325919316, 'calmar': 0.003051646316709098, 'omega': 1.0076778979916357, 'sortino': 0.06230047069864545}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.020303721620698045, 'max_drawdown': -0.19696467057265127, 'sharpe': -0.23519435997760707, 'calmar': -0.1030830633822167, 'omega': 0.9611496562053923, 'sortino': -0.31047443673794517}
+Phase 2 test: {'label': '', 'annual_return': -0.0215054499775309, 'max_drawdown': -0.21154987369024075, 'sharpe': -0.09908240493232356, 'calmar': -0.10165664295796265, 'omega': 0.9798729100252871, 'sortino': -0.12633515316983418}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.06532743778403916, 'max_drawdown': -0.3357436037236851, 'sharpe': -0.5434392673613303, 'calmar': -0.19457537555295687, 'omega': 0.8979517225924714, 'sortino': -0.6849158779779109}
+Phase 3 test: {'label': '', 'annual_return': -0.16206909356430732, 'max_drawdown': -0.3829788140478864, 'sharpe': -1.1699766570366437, 'calmar': -0.4231803108149025, 'omega': 0.8267153954546691, 'sortino': -1.6030267044139028}
+  gae_lambda = 0.97
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  gae_lambda = 0.99
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.006794180594601462, 'max_drawdown': -0.10508181097170631, 'sharpe': 0.1269827475599935, 'calmar': 0.0646561049126839, 'omega': 1.0215486788506023, 'sortino': 0.17276785833257735}
+Phase 1 test: {'label': '', 'annual_return': -0.011144300103560378, 'max_drawdown': -0.20957209101258067, 'sharpe': -0.10637540121899386, 'calmar': -0.05317645135721522, 'omega': 0.9824863424850424, 'sortino': -0.14332556828576748}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.05591895986515805, 'max_drawdown': -0.2523549095693295, 'sharpe': -0.7358625379726925, 'calmar': -0.221588555422162, 'omega': 0.883514286624744, 'sortino': -0.9529079081736108}
+Phase 2 test: {'label': '', 'annual_return': -0.06469919256603895, 'max_drawdown': -0.218784825957764, 'sharpe': -0.4488891183115917, 'calmar': -0.2957206574213196, 'omega': 0.9102330693919777, 'sortino': -0.5665359050346613}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.06757984723377397, 'max_drawdown': -0.3366476889482102, 'sharpe': -0.5979062780229228, 'calmar': -0.20074353531109623, 'omega': 0.888155978934901, 'sortino': -0.7599097993146668}
+Phase 3 test: {'label': '', 'annual_return': -0.18860008696467123, 'max_drawdown': -0.4168371598528523, 'sharpe': -1.410528753479397, 'calmar': -0.45245507149902126, 'omega': 0.7958132302444613, 'sortino': -1.9059342885634938}
+
+=== Sensitivity axis: n_epochs ===
+  n_epochs = 5
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.026443935385698447, 'max_drawdown': -0.10062974440439017, 'sharpe': 0.3778861539111231, 'calmar': 0.2627844832779361, 'omega': 1.065374057401916, 'sortino': 0.5198491918493459}
+Phase 1 test: {'label': '', 'annual_return': 0.005647633565709853, 'max_drawdown': -0.1639216268405023, 'sharpe': 0.11134129608747634, 'calmar': 0.034453254732550134, 'omega': 1.018673841495902, 'sortino': 0.1512308916392067}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.00527714167857507, 'max_drawdown': -0.1832537931982117, 'sharpe': -0.033627085308021984, 'calmar': -0.028796902844282123, 'omega': 0.9943855617784145, 'sortino': -0.04496573105756563}
+Phase 2 test: {'label': '', 'annual_return': -0.0020153626881740383, 'max_drawdown': -0.20696996747094434, 'sharpe': 0.05014642247654715, 'calmar': -0.009737464390610037, 'omega': 1.0102818763198762, 'sortino': 0.06449950447441989}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.013253285233659096, 'max_drawdown': -0.24792615682435598, 'sharpe': -0.07470482598355574, 'calmar': -0.053456583215817866, 'omega': 0.9855895226642541, 'sortino': -0.09694413966711926}
+Phase 3 test: {'label': '', 'annual_return': -0.13425896348621913, 'max_drawdown': -0.34386971481556555, 'sharpe': -0.9506432587323119, 'calmar': -0.3904355565544029, 'omega': 0.8572839045453043, 'sortino': -1.3142812711271303}
+  n_epochs = 10
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  n_epochs = 20
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.0035304092170291845, 'max_drawdown': -0.1045754080890317, 'sharpe': 0.08426577127387097, 'calmar': 0.03375945914572499, 'omega': 1.0142361359122543, 'sortino': 0.11453426160453277}
+Phase 1 test: {'label': '', 'annual_return': -0.013521494866165384, 'max_drawdown': -0.21766001857545275, 'sharpe': -0.13472916985144862, 'calmar': -0.062122088175224986, 'omega': 0.9777995166758141, 'sortino': -0.18090054038678685}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.035527680113785265, 'max_drawdown': -0.21843480115274952, 'sharpe': -0.4381586374632592, 'calmar': -0.1626466109168249, 'omega': 0.9284657535128513, 'sortino': -0.572453998812701}
+Phase 2 test: {'label': '', 'annual_return': -0.030250000913795705, 'max_drawdown': -0.21867773244372155, 'sharpe': -0.1638315908850914, 'calmar': -0.13833141845652155, 'omega': 0.9665058427424863, 'sortino': -0.20795753753260657}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.024296098624405182, 'max_drawdown': -0.2888668802847029, 'sharpe': -0.16530376142564984, 'calmar': -0.08410828752835668, 'omega': 0.9675553005440697, 'sortino': -0.21202137937082902}
+Phase 3 test: {'label': '', 'annual_return': -0.14986279592625917, 'max_drawdown': -0.3649936816998156, 'sharpe': -1.078109864498015, 'calmar': -0.4105901100214439, 'omega': 0.8394612209823609, 'sortino': -1.4811731756344804}
+
+=== Sensitivity axis: deterministic ===
+  deterministic = True
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': 0.018684330611322242, 'max_drawdown': -0.10247121909176186, 'sharpe': 0.2794510535332299, 'calmar': 0.18233735069152077, 'omega': 1.0479753024000065, 'sortino': 0.38291359855768947}
+Phase 1 test: {'label': '', 'annual_return': -0.00024093328145291526, 'max_drawdown': -0.17921802622832647, 'sharpe': 0.03590853181097896, 'calmar': -0.0013443585253302736, 'omega': 1.005990423866428, 'sortino': 0.04861540691082389}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.02598932940121612, 'max_drawdown': -0.200041774123554, 'sharpe': -0.3130213259175015, 'calmar': -0.12991951063763335, 'omega': 0.9485379271294659, 'sortino': -0.41179263067410415}
+Phase 2 test: {'label': '', 'annual_return': -0.033510799866972474, 'max_drawdown': -0.21314229210698743, 'sharpe': -0.19322526490034955, 'calmar': -0.15722266817958222, 'omega': 0.9605788973488275, 'sortino': -0.24493192954337478}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.044884735561549594, 'max_drawdown': -0.29886774564805535, 'sharpe': -0.36682295180684377, 'calmar': -0.1501826015524792, 'omega': 0.9300090996633927, 'sortino': -0.4661726991450632}
+Phase 3 test: {'label': '', 'annual_return': -0.15102768904803665, 'max_drawdown': -0.3680153440228424, 'sharpe': -1.085265849226838, 'calmar': -0.4103842176718112, 'omega': 0.8385188108755308, 'sortino': -1.4914596963592779}
+  deterministic = False
+
+=== Training Phase 1 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 1…
+Phase 1 val: {'label': '', 'annual_return': -0.3117270616471861, 'max_drawdown': -0.6828781462212311, 'sharpe': -3.964303462763717, 'calmar': -0.4564900244240593, 'omega': 0.506041630351992, 'sortino': -4.581830984342468}
+Phase 1 test: {'label': '', 'annual_return': -0.3521162845956387, 'max_drawdown': -0.8868008858282478, 'sharpe': -4.5234512841554, 'calmar': -0.3970635237545706, 'omega': 0.4464667843396708, 'sortino': -4.95657963341669}
+
+=== Training Phase 2 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 2…
+Phase 2 val: {'label': '', 'annual_return': -0.36031163097744134, 'max_drawdown': -0.8292420173367623, 'sharpe': -4.856927643722807, 'calmar': -0.43450720470561455, 'omega': 0.4136974849863411, 'sortino': -5.232637320270615}
+Phase 2 test: {'label': '', 'annual_return': -0.3012689203433083, 'max_drawdown': -0.5071437653027433, 'sharpe': -2.1675297080555675, 'calmar': -0.5940503284378613, 'omega': 0.6344982627940698, 'sortino': -2.690635042952495}
+
+=== Training Phase 3 ===
+  [Sensitivity] Pre-computing oracle tables for Phase 3…
+Phase 3 val: {'label': '', 'annual_return': -0.34920310598310367, 'max_drawdown': -0.8214192024502368, 'sharpe': -3.564876508328551, 'calmar': -0.42512167349077656, 'omega': 0.4959117040620904, 'sortino': -4.068508400288026}
+Phase 3 test: {'label': '', 'annual_return': -0.3982896349938757, 'max_drawdown': -0.6652920773932991, 'sharpe': -3.3126013483300416, 'calmar': -0.5986688381356146, 'omega': 0.5850949312189455, 'sortino': -4.117455641940591}
+Saved /workspace/project/results/exp4_sensitivity.json
+Saved /workspace/project/results/exp4_sensitivity.png
+
+=== Sensitivity Summary (test annual return) ===
+
+  Axis: bootstrap_schedule
+  Value              Phase 1    Phase 2    Phase 3
+  ------------------------------------------------
+  algorithm1         -0.0002    -0.0335    -0.1510
+  alternation        -0.0002    -0.0335    -0.1510
+
+  Axis: block_frac
+  Value              Phase 1    Phase 2    Phase 3
+  ------------------------------------------------
+  0.7                -0.0002    -0.0335    -0.1510
+  0.8                -0.0002    -0.0335    -0.1510
+  0.9                -0.0002    -0.0335    -0.1510
+
+  Axis: gae_lambda
+  Value              Phase 1    Phase 2    Phase 3
+  ------------------------------------------------
+  0.95                0.0005    -0.0215    -0.1621
+  0.97               -0.0002    -0.0335    -0.1510
+  0.99               -0.0111    -0.0647    -0.1886
+
+  Axis: n_epochs
+  Value              Phase 1    Phase 2    Phase 3
+  ------------------------------------------------
+  5                   0.0056    -0.0020    -0.1343
+  10                 -0.0002    -0.0335    -0.1510
+  20                 -0.0135    -0.0303    -0.1499
+
+  Axis: deterministic
+  Value              Phase 1    Phase 2    Phase 3
+  ------------------------------------------------
+  True               -0.0002    -0.0335    -0.1510
+  False              -0.3521    -0.3013    -0.3983
+
+Experiment 4 complete.
